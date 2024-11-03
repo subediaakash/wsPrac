@@ -3,7 +3,6 @@ dotenv.config();
 import express from "express";
 import cors from "cors";
 import { createServer } from "http";
-import { PrismaClient } from "@prisma/client";
 import userRouter from "./routes/userRoute.js";
 import { setupWebSocketServer } from "./websocket.js";
 import { WebSocketServer } from "ws";
